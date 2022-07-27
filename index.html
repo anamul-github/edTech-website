@@ -11,25 +11,62 @@
 </head>
 
 <body>
-    <!-- Header Start Here  -->
-    <header class="container mt-5">
+    <header class="container">
+        <!-- Navbar Start here  -->
+        <nav class="navbar navbar-expand-lg my-4">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-3 fw-bold text-secondary me-5 pe-2" href="#">Pro Edu</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse ms-auto" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-5 px-5">
+                        <li class="nav-item px-2">
+                            <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="#">Courses</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link">Deals</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link">Success</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link">Register</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
 
         <!-- Banner Start Here  -->
-        <!-- <div> -->
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-            <div class="carousel-inner bg-dark">
+            <div class="carousel-inner bg-dark d-flex">
                 <div class="carousel-item active">
-                    <img src="./images/cover/cover-1.png" class=" w-100 img-fluid opacity-75" alt="...">
-                    <div class="carousel-caption">
+                    <img src="./images/cover/cover-1.png" class="w-100 img-fluid opacity-75" alt="...">
+                    <div class="carousel-caption d-flex flex-column justify-content-center align-items-center h-100">
                         <!-- position-absolute top-50 start-50 translate-middle -->
                         <h1 class="fw-bold p-2">Get Started Digital <br> Learning</h1>
-                        <p class="p-2">It is a long established fact that a reader will be distracted by
-                            the readable content of a page when looking at its layout.
+                        <p class="p-2">It is a long established fact that a reader will be distracted by <br> the
+                            readable content of a page when looking at its layout.
                         </p>
                         <button type="button" class="btn btn-primary btn-lg px-4">Get Started</button>
                     </div>
                 </div>
             </div>
+
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
                 data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -41,7 +78,6 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-        <!-- </div> -->
     </header>
     <!-- Header End Here  -->
 
@@ -134,7 +170,6 @@
     <!-- Popular Courses End  -->
 
     <!-- Ready to join section start  -->
-
     <section class="container mt-5 mb-5 p-4">
         <div class="row bg-primary p-5">
             <div
@@ -177,18 +212,21 @@
             </div>
         </div>
     </section>
-
     <!-- Ready to join section End  -->
 
     <!-- Footer Section  -->
 
     <footer>
         <h2>Pro Edu</h2>
-        <p>address</p>
-        <a href="">Facebook</a>
-        <a href="">Github</a>
-        <a href="">Twitter</a>
-
+        <p>Office 41, Zawaya Buildin, Ghala Muscat, <br>
+            Sultanate of Oman
+        </p>
+        <p>Privacy Ploicy | Terms of use</p>
+        <div>
+            <a href="">Facebook</a>
+            <a href="">Github</a>
+            <a href="">Twitter</a>
+        </div>
     </footer>
 
     <!-- Boostrap JS CDN Link  -->
