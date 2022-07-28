@@ -5,7 +5,7 @@
 /* Media Query for mobile/small devices  */
 @media only screen and (max-width:767px) {
     .banner-img {
-        min-height: 350px;
+        min-height: 400px;
         width: 100%;
     }
 
@@ -16,6 +16,6 @@
 /* Media Query for ipad/tablet/medium devices  */
 @media only screen and (min-width:768px) and (max-width:991px) {
     .banner-img {
-        min-height: 400px;
+        min-height: 450px;
     }
 }
